@@ -12,7 +12,7 @@ const App: React.FC = () => {
 		<>
 			<div>
 				<h1>Sign Up</h1>
-				<h3>Let's get started</h3>
+				<h4>Let's get started!</h4>
 			</div>
 			<div>
 				<InputField
