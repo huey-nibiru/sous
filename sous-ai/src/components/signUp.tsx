@@ -6,7 +6,7 @@ function HomePage() {
 
   return (
     <>
-      <h1>The</h1>
+      <h1>SOUS V1</h1>
     </>
   )
 }
