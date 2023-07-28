@@ -40,13 +40,13 @@ const FormComponent: React.FC = () => {
 				onChange={(value) => setUsername(value)}
 			/>
 			<InputField
-				label="Password:"
+				label="Password"
 				type="password"
 				value={password}
 				onChange={handlePasswordChange}
 			/>
 			<InputField
-				label="Confirm Password:"
+				label="Confirm Password"
 				type="password"
 				value={confirmPassword}
 				onChange={handleConfirmPasswordChange}
