@@ -7,8 +7,8 @@ const App: React.FC = () => {
 	const containerStyle = {
 		display: "flex",
 		alignItems: "center",
-		//flexDirection: "column", // Align items in a column
 		textAlign: "center", // Center the h1 element horizontally
+		placeItems: "center",
 	};
 
 	const imageStyle = {
@@ -22,6 +22,7 @@ const App: React.FC = () => {
 		marginLeft: "auto",
 		marginTop: "10px",
 	};
+
 	const formColumn = {
 		flexDirection: "column", // Align form and header items in a column
 	};
