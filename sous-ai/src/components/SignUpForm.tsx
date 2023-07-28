@@ -90,6 +90,9 @@ const FormComponent: React.FC = () => {
 			</label>
 
 			<button style={buttonStyle}>Sign Up</button>
+			<p>
+				Already have an account? <a href="https://www.example.com">Log in</a>
+			</p>
 		</div>
 	);
 };
