@@ -9,6 +9,16 @@ const FormComponent: React.FC = () => {
 	const [confirmPassword, setConfirmPassword] = useState("");
 	const [agreedToTerms, setAgreedToTerms] = useState(false);
 
+	const buttonStyle = {
+		backgroundColor: "red",
+		color: "white",
+		padding: "10px 20px",
+		borderRadius: "10px",
+		border: "none",
+		marginTop: "20px",
+		cursor: "pointer",
+	};
+
 	const handlePasswordChange = (value: string) => {
 		setPassword(value);
 	};
@@ -65,9 +75,11 @@ const FormComponent: React.FC = () => {
 					By signing up, you agree to our Terms and Pivacy Policy.
 				</label>
 			</div>
+			<div>
+				<button style={buttonStyle}>Sign Up</button>
+			</div>
 		</div>
 	);
 };
-
 
 export default FormComponent;

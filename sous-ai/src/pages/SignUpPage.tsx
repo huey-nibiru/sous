@@ -7,8 +7,13 @@ const SignUpPage: React.FC = () => {
 	const containerStyle = {
 		display: "flex",
 		alignItems: "center",
-		textAlign: "center", // Center the h1 element horizontally
 		placeItems: "center",
+		position: "fixed",
+		top: "0",
+		left: "0",
+		bottom: "0",
+		right: "0",
+		justifyContent: "center",
 	};
 
 	const imageStyle = {
