@@ -3,7 +3,7 @@ import "./styles.css";
 import clipArt from "../assets/SignUpPageClipart.png";
 import FormComponent from "../components/SignUpForm";
 
-const App: React.FC = () => {
+const SignUpPage: React.FC = () => {
 	const containerStyle = {
 		display: "flex",
 		alignItems: "center",
@@ -60,4 +60,4 @@ const App: React.FC = () => {
 	);
 };
 
-export default App;
+export default SignUpPage;

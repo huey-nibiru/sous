@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import HomePage from './pages/SignUpPage.tsx'
+import SignUpPage from './pages/SignUpPage.tsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <HomePage />
+    <SignUpPage />
   </React.StrictMode>,
 )
