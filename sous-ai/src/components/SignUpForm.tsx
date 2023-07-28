@@ -7,6 +7,7 @@ const FormComponent: React.FC = () => {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 	const [confirmPassword, setConfirmPassword] = useState("");
+	const [agreedToTerms, setAgreedToTerms] = useState(false);
 
 	const handlePasswordChange = (value: string) => {
 		setPassword(value);
@@ -14,6 +15,9 @@ const FormComponent: React.FC = () => {
 
 	const handleConfirmPasswordChange = (value: string) => {
 		setConfirmPassword(value);
+	};
+	const handleCheckboxChange = () => {
+		setAgreedToTerms((prevAgreedToTerms) => !prevAgreedToTerms);
 	};
 
 	const isPasswordMatch = password === confirmPassword;
@@ -36,19 +40,31 @@ const FormComponent: React.FC = () => {
 				onChange={(value) => setUsername(value)}
 			/>
 			<InputField
-        label="Password:"
-        type="password"
-        value={password}
-        onChange={handlePasswordChange}
-      />
-      <InputField
-        label="Confirm Password:"
-        type="password"
-        value={confirmPassword}
-        onChange={handleConfirmPasswordChange}
-        icon={isPasswordMatch ? '✅' : '❌'}
-      />
-      {!isPasswordMatch && <p>Passwords do not match.</p>}
+				label="Password:"
+				type="password"
+				value={password}
+				onChange={handlePasswordChange}
+			/>
+			<InputField
+				label="Confirm Password:"
+				type="password"
+				value={confirmPassword}
+				onChange={handleConfirmPasswordChange}
+				icon={isPasswordMatch ? "✅" : "❌"}
+			/>
+
+			{!isPasswordMatch && <p>Passwords do not match.</p>}
+
+			<div>
+				<label>
+					<input
+						type="checkbox"
+						checked={agreedToTerms}
+						onChange={handleCheckboxChange}
+					/>
+					By signing up, you agree to get mogged
+				</label>
+			</div>
 		</div>
 	);
 };
