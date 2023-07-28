@@ -1,12 +1,17 @@
 import React from "react";
+import "./styles.css";
 import FormComponent from "../components/SignUpForm";
 
 const App: React.FC = () => {
 	return (
-		<div>
-			<h1>Sign Up</h1>
-			<h4>Let's get started!</h4>
-			<FormComponent />
+		<div className="wrapper">
+			<div className="headerContainer">
+				<h1>Sign Up</h1>
+				<h4>Let's get started!</h4>
+			</div>
+			<div className="formContainer">
+				<FormComponent />
+			</div>
 		</div>
 	);
 };

@@ -1,0 +1,9 @@
+/* styles.css */
+
+.headerContainer {
+	text-align: center;
+}
+.wrapper {
+	/* Add some spacing between the form and the right side */
+	margin-right: 20px;
+}

@@ -62,7 +62,7 @@ const FormComponent: React.FC = () => {
 						checked={agreedToTerms}
 						onChange={handleCheckboxChange}
 					/>
-					By signing up, you agree to get mogged
+					By signing up, you agree to our Terms and Pivacy Policy.
 				</label>
 			</div>
 		</div>
