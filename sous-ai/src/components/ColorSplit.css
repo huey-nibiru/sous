@@ -1,0 +1,18 @@
+/* ColorSplit.css */
+.color-split-container {
+	display: flex;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.left-half {
+	flex: 1;
+	background-color: rgb(223, 223, 223);
+	height: 100%;
+}
+
+.right-half {
+	flex: 1;
+	height: 100%;
+}
