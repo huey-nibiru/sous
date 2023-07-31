@@ -1,18 +1,13 @@
 import React from "react";
 import "./ColorSplit.css"; // Import the CSS file with the styles
-import FormComponent from "./LoginForm";
-const ColorSplit: React.FC = (left, right) => {
+
+const HalfPageGrey: React.FC = () => {
 	return (
-		<div className="color-split-container">
-			<div className="left-half">
-				<h1>Sous</h1>
-	2		</div>
-			<div className="right-half">
-				<h1>Log in</h1>
-				<FormComponent />
-			</div>
+		<div className="half-page-grey-container">
+			<div className="grey-half"></div>
+			<div className="white-half"></div>
 		</div>
 	);
 };
 
-export default ColorSplit;
+export default HalfPageGrey;
