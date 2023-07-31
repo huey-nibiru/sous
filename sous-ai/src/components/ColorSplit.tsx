@@ -6,7 +6,7 @@ const ColorSplit: React.FC = (left, right) => {
 		<div className="color-split-container">
 			<div className="left-half">
 				<h1>Sous</h1>
-			</div>
+	2		</div>
 			<div className="right-half">
 				<h1>Log in</h1>
 				<FormComponent />

@@ -35,24 +35,14 @@ const FormComponent: React.FC = () => {
 	const handlePasswordChange = (value: string) => {
 		setPassword(value);
 	};
-
-	const handleConfirmPasswordChange = (value: string) => {
-		setConfirmPassword(value);
+	const handleEmailChange = (value: string) => {
+		setEmail(value);
 	};
-	const handleCheckboxChange = () => {
-		setAgreedToTerms((prevAgreedToTerms) => !prevAgreedToTerms);
-	};
-
-	const isPasswordMatch = password === confirmPassword;
 
 	return (
 		<div style={containerStyle}>
 			<form style={formStyle}>
-				<InputField
-					label="Email"
-					value={email}
-					onChange={(value) => setEmail(value)}
-				/>
+				<InputField label="Email" value={email} onChange={handleEmailChange} />
 
 				<InputField
 					label="Password"
@@ -62,11 +52,9 @@ const FormComponent: React.FC = () => {
 				/>
 			</form>
 
-			{!isPasswordMatch && <p>Passwords do not match.</p>}
-
 			<button style={buttonStyle}>Log In</button>
 			<p>
-				Forgot Password? <a href="https://www.example.com">Click Here</a>
+				<a href="https://www.example.com">Forgot Password? </a>
 			</p>
 		</div>
 	);
