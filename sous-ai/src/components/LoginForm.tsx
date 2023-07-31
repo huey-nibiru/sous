@@ -64,9 +64,9 @@ const FormComponent: React.FC = () => {
 
 			{!isPasswordMatch && <p>Passwords do not match.</p>}
 
-			<button style={buttonStyle}>Sign Up</button>
+			<button style={buttonStyle}>Log In</button>
 			<p>
-				Already have an account? <a href="https://www.example.com">Log in</a>
+				Forgot Password? <a href="https://www.example.com">Click Here</a>
 			</p>
 		</div>
 	);
