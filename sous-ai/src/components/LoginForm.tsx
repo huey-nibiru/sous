@@ -57,6 +57,8 @@ const FormComponent: React.FC = () => {
 			<button style={buttonStyle}>Log In</button>
 			<p>
 				<a href="https://www.example.com">Forgot your password? </a>
+				<br></br>
+				<a href="https://www.example.com">Sign Up</a>
 			</p>
 		</div>
 	);
