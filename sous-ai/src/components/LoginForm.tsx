@@ -42,6 +42,8 @@ const FormComponent: React.FC = () => {
 	return (
 		<div style={containerStyle}>
 			<form style={formStyle}>
+				<h1>Log In</h1>
+
 				<InputField label="Email" value={email} onChange={handleEmailChange} />
 
 				<InputField
@@ -54,7 +56,7 @@ const FormComponent: React.FC = () => {
 
 			<button style={buttonStyle}>Log In</button>
 			<p>
-				<a href="https://www.example.com">Forgot Password? </a>
+				<a href="https://www.example.com">Forgot your password? </a>
 			</p>
 		</div>
 	);
