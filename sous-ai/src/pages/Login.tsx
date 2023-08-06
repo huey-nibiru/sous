@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import clipArt from "../assets/SignUpPageClipart.png";
-import FormComponent from "../components/LoginForm";
+import FormComponent from "../components/LoginForm.tsx";
 import ColorSplit from "../components/ColorSplit.tsx";
 const LoginPage: React.FC = () => {
 	const containerStyle = {
@@ -35,7 +35,7 @@ const LoginPage: React.FC = () => {
 	return (
 		<>
 			<div>
-				<ColorSplit/>
+				<ColorSplit />
 			</div>
 		</>
 	);

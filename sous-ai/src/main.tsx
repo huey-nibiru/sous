@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import SignUpPage from "./pages/SignUpPage.tsx";
-import LoginPage from "./pages/LoginPage.tsx";
+import SignUpPage from "./pages/Register.tsx";
+import LoginPage from "./pages/Login.tsx";
 
 import "./index.css";
 
