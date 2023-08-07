@@ -39,9 +39,14 @@ const FormComponent: React.FC = () => {
 		setEmail(value);
 	};
 
+
+	const loginUser = (e) => {
+		e.preventDefault();
+	};
+
 	return (
 		<div style={containerStyle}>
-			<form style={formStyle}>
+			<form style={formStyle} onSubmit={loginUser}>
 				<h1>Log In</h1>
 
 				<InputField label="Email" value={email} onChange={handleEmailChange} />

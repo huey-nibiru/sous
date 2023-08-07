@@ -44,10 +44,14 @@ const FormComponent: React.FC = () => {
 	};
 
 	const isPasswordMatch = password === confirmPassword;
+	
+	const registerUser = (e) => {
+		e.preventDefault();
+	};
 
 	return (
 		<div style={containerStyle}>
-			<form style={formStyle}>
+			<form style={formStyle} onSubmit={registerUser}>
 				<InputField
 					label="Full Name"
 					value={name}
@@ -65,7 +69,6 @@ const FormComponent: React.FC = () => {
 				/>
 				<InputField
 					label="Password"
-					type="password"
 					value={password}
 					onChange={handlePasswordChange}
 				/>

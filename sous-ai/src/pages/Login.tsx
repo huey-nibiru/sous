@@ -3,6 +3,9 @@ import "./styles.css";
 import clipArt from "../assets/SignUpPageClipart.png";
 import FormComponent from "../components/LoginForm.tsx";
 import ColorSplit from "../components/ColorSplit.tsx";
+import Navbar from "../components/Navbar";
+
+
 const LoginPage: React.FC = () => {
 	const containerStyle = {
 		display: "flex",
@@ -35,6 +38,7 @@ const LoginPage: React.FC = () => {
 	return (
 		<>
 			<div>
+				<Navbar />
 				<ColorSplit />
 			</div>
 		</>

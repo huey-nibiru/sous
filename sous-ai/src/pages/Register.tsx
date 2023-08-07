@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.css";
 import clipArt from "../assets/SignUpPageClipart.png";
 import FormComponent from "../components/SignUpForm";
+import Navbar from "../components/Navbar";
 
 const SignUpPage: React.FC = () => {
 	const containerStyle = {
@@ -34,6 +35,7 @@ const SignUpPage: React.FC = () => {
 
 	return (
 		<>
+			<Navbar />
 			{
 				// Align the clipart with the form horizontally
 			}
