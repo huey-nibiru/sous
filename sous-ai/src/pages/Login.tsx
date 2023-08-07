@@ -3,7 +3,7 @@ import "./styles.css";
 import clipArt from "../assets/SignUpPageClipart.png";
 import FormComponent from "../components/LoginForm.tsx";
 import ColorSplit from "../components/ColorSplit.tsx";
-import Sidebar from "../components/Sidebar.tsx";
+
 
 const LoginPage: React.FC = () => {
 	const containerStyle = {
@@ -37,7 +37,6 @@ const LoginPage: React.FC = () => {
 	return (
 		<>
 			<div>
-				<Sidebar />
 				<ColorSplit />
 			</div>
 		</>

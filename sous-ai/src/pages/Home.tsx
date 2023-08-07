@@ -1,9 +1,9 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
+import Navbar from "../components/Navbar.tsx";
 export default function Home() {
 	return (
 		<>
-			<Sidebar />
+			<Navbar />
 			<h1>Sous</h1>
 		</>
 	);
