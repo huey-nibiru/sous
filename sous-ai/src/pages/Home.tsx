@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 export default function Home() {
 	return (
 		<>
-			<Navbar />
-            <h1>Sous</h1>
+			<Sidebar />
+			<h1>Sous</h1>
 		</>
 	);
 }
