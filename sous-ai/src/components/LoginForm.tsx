@@ -17,7 +17,6 @@ const FormComponent: React.FC = () => {
 		border: "none",
 		marginTop: "20px",
 		width: "100%",
-
 		cursor: "pointer",
 	};
 
