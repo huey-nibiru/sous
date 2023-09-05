@@ -1,10 +1,15 @@
 import React from "react";
-import Navbar from "../components/Navbar.tsx";
+import LoginButton from '../components/LoginButton'
+
+
 export default function Home() {
 	return (
 		<>
-			<Navbar />
-			<h1>Sous</h1>
+			 <div className="App">
+            <LoginButton />
+
+            {/* Rest of your app content */}
+        </div>
 		</>
 	);
 }
