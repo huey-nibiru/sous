@@ -1,4 +1,5 @@
 import "./styles/Header.css";
+import "./styles/Banner.css";
 import LoginButton from "./LoginButton";
 import SignUpButton from "./SignUpButton";
 
@@ -10,6 +11,14 @@ export default function () {
 				{<LoginButton />}
 				{<SignUpButton />}
 			</div>
+			<div className="banner-container">
+				<img
+					src="./src/assets/food_platter.png"
+					alt="Food Platter"
+					className="banner-image"
+				/>
+			</div>
+			;
 		</>
 	);
 }

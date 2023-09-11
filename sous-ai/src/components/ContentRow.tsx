@@ -7,12 +7,6 @@ import {
 	faPeopleGroup,
 } from "@fortawesome/free-solid-svg-icons"; // Replace with your desired icons
 
-interface IconRowProps {
-	text1: string;
-	text2: string;
-	text3: string;
-}
-
 const iconData = [
 	{
 		icon: faBowlFood,
@@ -28,7 +22,7 @@ const iconData = [
 	},
 ];
 
-const IconRow: React.FC<IconRowProps> = () => {
+const IconRow = () => {
 	return (
 		<>
 			<br />

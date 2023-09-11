@@ -5,11 +5,11 @@
 	right: 0;
 	background-color: #f0eeee;
 	color: #000000;
-	padding: 10px;
+	padding: 2%;
 	text-align: center;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 	z-index: 999; /* Ensures the header appears above other content */
-	height: 60px;
+	height: auto;
 }
 
 .h1 {

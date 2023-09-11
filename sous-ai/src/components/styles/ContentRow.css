@@ -9,5 +9,5 @@
 .icon-container {
 	text-align: center;
 	flex: 1;
-	max-width: 300px; /* Adjust the maximum width as needed */
+	max-width: max-content; /* Adjust the maximum width as needed */
 }
