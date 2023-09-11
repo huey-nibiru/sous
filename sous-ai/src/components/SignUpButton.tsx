@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom"; // Assuming you're using React Router for navigation
 import "./styles/SignUpButton.css"; // You can create a CSS file for styling
 

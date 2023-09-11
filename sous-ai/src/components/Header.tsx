@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/Header.css";
 import LoginButton from "../components/LoginButton";
 import SignUpButton from "./SignUpButton";
