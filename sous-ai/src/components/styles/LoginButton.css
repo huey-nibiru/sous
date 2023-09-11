@@ -5,8 +5,10 @@
 	padding: 10px 20px;
 	cursor: pointer;
 	transition: background-color 0.3s ease; /* Transition for the hover effect */
-
-	/* Add additional styles as needed */
+	position: fixed;
+	top: 20px; /* Adjust the top position as needed */
+	right: 20px; /* Adjust the right position as needed */
+	z-index: 999; /* Ensure the button appears above other content */
 }
 
 .login-button:hover {
