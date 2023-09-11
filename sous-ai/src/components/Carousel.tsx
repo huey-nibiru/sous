@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CircleComponent, { CircleComponentProps } from "./CircleComponent"; // Import your CircleComponent and its props interface
+import CircleComponent, { CircleComponentProps } from "./CircleContent"; // Import your CircleComponent and its props interface
 import "./styles/Carousel.css"; // You can style the carousel component with CSS
 
 interface CarouselProps {

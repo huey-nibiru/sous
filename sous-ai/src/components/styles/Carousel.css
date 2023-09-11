@@ -1,0 +1,50 @@
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  .carousel-circle {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .carousel-circle.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .circle-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for each circle */
+    border-radius: 10px;
+  }
+  
+  .circle-container:not(:last-child) {
+    margin-right: 20px; /* Spacing between circles */
+  }
+  
+  .circle-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .circle-heading {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333; /* Heading text color */
+  }
+  
+  .circle-paragraph {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666; /* Paragraph text color */
+  }
+  
