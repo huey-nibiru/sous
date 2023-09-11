@@ -5,15 +5,15 @@ import Header from "../components/Header";
 export default function () {
 	return (
 		<>
-			<div>
+			<div className="home-page">
 				<Header />
-			</div>
-			<div>
-				<img
-					src="../src/assets/food_platter.png"
-					alt="Food Image 1"
-					className="home-page-image"
-				/>
+				<div className="banner-container">
+					<img
+						src="./src/assets/food_platter.png"
+						alt="Your Image"
+						className="banner-image"
+					/>
+				</div>
 			</div>
 		</>
 	);
