@@ -9,7 +9,7 @@
 	width: 100vw; /* Set the width to 100vw (100% of the viewport width) */
 	height: 30vh;
 	overflow: hidden; /* Hide horizontal overflow (if any) */
-	margin-top: -310px; /* Adjust*/
+	margin-top: -380px; /* Adjust*/
 }
 
 .banner-image {
