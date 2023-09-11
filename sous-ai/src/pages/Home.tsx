@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import ContentRow from "../components/ContentRow";
+import ContentRow from "../components/RowContent";
 import CircleComponent from "../components/CircleContent";
 import "../assets/touchscreen.png";
 
