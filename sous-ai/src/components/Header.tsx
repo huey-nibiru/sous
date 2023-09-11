@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/Header.css";
 import LoginButton from "../components/LoginButton";
+import SignUpButton from "./SignUpButton";
 
 export default function () {
 	return (
@@ -9,6 +10,7 @@ export default function () {
 				<h1>Sous</h1>
 
 				{<LoginButton />}
+				{<SignUpButton />}
 			</div>
 		</>
 	);

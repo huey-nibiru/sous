@@ -1,16 +1,16 @@
-.login-button {
-	background-color: black;
-	color: white;
+.signup-button {
+	background-color: rgb(208, 208, 208);
+	color: black;
 	border: none;
-	padding: 10px 40px;
+	padding: 10px 30px;
 	cursor: pointer;
 	transition: background-color 0.3s ease; /* Transition for the hover effect */
 	position: fixed;
 	top: 20px; /* Adjust the top position as needed */
-	right: 20px; /* Adjust the right position as needed */
+	right: 110px; /* Adjust the right position as needed */
 	z-index: 999; /* Ensure the button appears above other content */
 }
 
-.login-button:hover {
-	background-color: red; /* Change the background color on hover */
+.signup-button:hover {
+	background-color: rgb(255, 204, 0); /* Change the background color on hover */
 }
