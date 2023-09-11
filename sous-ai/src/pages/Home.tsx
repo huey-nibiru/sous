@@ -17,7 +17,7 @@ export default function () {
 					imageUrl="file:///var/folders/fm/gf09nxpx12n_7pcjsnlx5yt00000gn/T/TemporaryItems/NSIRD_screencaptureui_WUHnav/Screen%20Shot%202023-09-11%20at%206.52.05%20PM.png"
 					heading="1. Personalize Your Profile"
 					paragraph="Tell us about your dietary preferences, restrictions, and goals. 
-					Whether you're vegan, gluten-free, or aiming to lose weight, we've got you covered."
+					Whether you're vegan, gluten-free, or aiming to lose weight, we've got you covered!"
 				/>
 			</div>
 		</>
