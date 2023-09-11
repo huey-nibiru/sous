@@ -1,0 +1,11 @@
+.home-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home-page-image {
+	width: 100%;
+	max-width: 800px; /* Adjust the maximum width as needed */
+	margin-top: 20px; /* Adjust the margin-top to create space between the header and the image */
+}
