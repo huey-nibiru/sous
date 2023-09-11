@@ -1,5 +1,5 @@
 import "./styles/Header.css";
-import LoginButton from "../components/LoginButton";
+import LoginButton from "./LoginButton";
 import SignUpButton from "./SignUpButton";
 
 export default function () {

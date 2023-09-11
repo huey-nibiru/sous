@@ -1,0 +1,13 @@
+/* ContentRow.css */
+.icon-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.icon-container {
+	text-align: center;
+	flex: 1;
+	max-width: 300px; /* Adjust the maximum width as needed */
+}

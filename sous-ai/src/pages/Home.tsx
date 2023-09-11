@@ -1,5 +1,6 @@
 import "./styles/HomeImage.css";
 import Header from "../components/Header";
+import ContentRow from "../components/ContentRow";
 
 export default function () {
 	return (
@@ -13,6 +14,7 @@ export default function () {
 						className="banner-image"
 					/>
 				</div>
+				<ContentRow />
 			</div>
 		</>
 	);
