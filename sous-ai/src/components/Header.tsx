@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/header.css";
+import "./styles/Header.css";
 import LoginButton from "../components/LoginButton";
 
 export default function () {
@@ -7,7 +7,8 @@ export default function () {
 		<>
 			<div className="header">
 				<h1>Sous</h1>
-				{/* Add navigation links or other content here */}
+
+				{<LoginButton />}
 			</div>
 		</>
 	);

@@ -1,0 +1,14 @@
+.login-button {
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease; /* Transition for the hover effect */
+
+	/* Add additional styles as needed */
+}
+
+.login-button:hover {
+	background-color: red; /* Change the background color on hover */
+}
