@@ -6,16 +6,15 @@
 
 .banner-container {
 	position: relative;
-	width: 100%;
+	width: 100vw; /* Set the width to 100vw (100% of the viewport width) */
+	height: 30vh;
+	overflow: hidden; /* Hide horizontal overflow (if any) */
 }
 
 .banner-image {
 	width: 100%;
-	max-height: 300px; /* Adjust the maximum height as needed for your banner */
+	max-height: auto; /* Adjust the maximum height as needed for your banner */
 	object-fit: cover; /* Maintain aspect ratio and cover the entire width */
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	border-top: 1px solid #ccc; /* Add a border at the top of the banner */
-	border-bottom: 1px solid #ccc; /* Add a border at the bottom of the banner */
+	border-top: 1px solid #ccc; /* Add a border at the top of the banner container */
+	border-bottom: 1px solid #ccc; /* Add a border at the bottom of the banner container */
 }
