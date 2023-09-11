@@ -1,6 +1,7 @@
-import "./styles/HomeImage.css";
+import "./styles/Banner.css";
 import Header from "../components/Header";
 import ContentRow from "../components/ContentRow";
+import Circle from "../components/ContentCircle";
 
 export default function () {
 	return (
@@ -15,6 +16,7 @@ export default function () {
 					/>
 				</div>
 				<ContentRow />
+				<Circle />
 			</div>
 		</>
 	);
