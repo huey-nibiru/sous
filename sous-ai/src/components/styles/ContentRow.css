@@ -10,4 +10,6 @@
 	text-align: center;
 	flex: 1;
 	max-width: max-content; /* Adjust the maximum width as needed */
+	padding-left: 5%;
+	padding-right: 5%;
 }
