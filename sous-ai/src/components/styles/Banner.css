@@ -17,16 +17,3 @@
 	border-top: 1px solid #ccc; /* Add a border at the top of the banner container */
 	border-bottom: 1px solid #ccc; /* Add a border at the bottom of the banner container */
 }
-
-.header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-
-	padding: 2%;
-
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-	z-index: 999; /* Ensures the header appears above other content */
-	height: auto;
-}

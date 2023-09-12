@@ -9,7 +9,7 @@
 	text-align: center;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 	z-index: 999; /* Ensures the header appears above other content */
-	height: auto;
+	width: auto;
 }
 
 .h1 {

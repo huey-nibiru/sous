@@ -5,6 +5,7 @@
 	align-items: center;
 	width: 100%;
 	height: auto;
+	
 }
 
 .icon-container {
@@ -13,5 +14,6 @@
 	max-width: max-content; /* Adjust the maximum width as needed */
 	padding-left: 3vh;
 	padding-right: 3vh;
+	
 
 }
