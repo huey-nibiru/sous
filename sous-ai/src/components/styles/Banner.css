@@ -1,15 +1,10 @@
-.home-page {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 .banner-container {
 	position: relative;
 	width: 100vw; /* Set the width to 100vw (100% of the viewport width) */
-	height: 30vh;
+	height: 40vh;
 	overflow: hidden; /* Hide horizontal overflow (if any) */
 	margin-top: auto; /* Adjust*/
+	align-items: center;
 }
 
 .banner-image {
@@ -18,4 +13,5 @@
 	object-fit: cover; /* Maintain aspect ratio and cover the entire width */
 	border-top: 1px solid #ccc; /* Add a border at the top of the banner container */
 	border-bottom: 1px solid #ccc; /* Add a border at the bottom of the banner container */
+	align-items: center;
 }

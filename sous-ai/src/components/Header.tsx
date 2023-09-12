@@ -11,13 +11,6 @@ export default function () {
 				{<LoginButton />}
 				{<SignUpButton />}
 			</div>
-			<div className="banner-container">
-				<img
-					src="./src/assets/food_platter.png"
-					alt="Food Platter"
-					className="banner-image"
-				/>
-			</div>
 			;
 		</>
 	);

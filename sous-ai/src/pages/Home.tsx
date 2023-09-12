@@ -1,6 +1,6 @@
 import Header from "../components/Header";
+import Banner from "../components/Banner";
 import ContentRow from "../components/RowContent";
-import CircleComponent from "../components/CircleContent";
 import Carousel from "../components/Carousel";
 
 const circleData = [
@@ -40,17 +40,11 @@ const circleData = [
 export default function () {
 	return (
 		<>
-			<div className="home-page">
-				<Header />
-			</div>
-			<div className="content-row">
-				<ContentRow />
-			</div>
-			<div>
-				<div className="carousel">
-					<Carousel circleData={circleData} interval={3000} />
-				</div>
-			</div>
+			<Header />
+			<Banner />
+			<ContentRow />
+			<Carousel circleData={circleData} interval={3000} />
+			<Banner />
 		</>
 	);
 }

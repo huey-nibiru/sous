@@ -16,3 +16,8 @@
 	margin: 0;
 	font-family: "Raleway", sans-serif;
 }
+.home-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
