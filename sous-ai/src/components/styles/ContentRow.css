@@ -4,12 +4,14 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	height: auto;
 }
 
 .icon-container {
 	text-align: center;
 	flex: 1;
 	max-width: max-content; /* Adjust the maximum width as needed */
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 3vh;
+	padding-right: 3vh;
+
 }

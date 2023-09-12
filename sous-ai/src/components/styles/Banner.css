@@ -1,17 +1,32 @@
 .banner-container {
-	position: relative;
-	width: 100vw; /* Set the width to 100vw (100% of the viewport width) */
-	height: 40vh;
-	overflow: hidden; /* Hide horizontal overflow (if any) */
-	margin-top: auto; /* Adjust*/
+	display: flex;
+	justify-content: center;
 	align-items: center;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	max-height: 30vh;
 }
 
 .banner-image {
 	width: 100%;
 	max-height: auto; /* Adjust the maximum height as needed for your banner */
-	object-fit: cover; /* Maintain aspect ratio and cover the entire width */
+	object-fit: contain; /* Maintain aspect ratio and cover the entire width */
 	border-top: 1px solid #ccc; /* Add a border at the top of the banner container */
 	border-bottom: 1px solid #ccc; /* Add a border at the bottom of the banner container */
-	align-items: center;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	padding: 2%;
+
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+	z-index: 999; /* Ensures the header appears above other content */
+	height: auto;
 }
