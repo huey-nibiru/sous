@@ -44,7 +44,6 @@ export default function () {
 			<Header />
 			<Banner />
 			<ContentRow />
-
 			<StaggeredGridAnimation rows={20} columns={10} />
 			<br />
 			<Carousel circleData={circleData} interval={5000} />

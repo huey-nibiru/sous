@@ -19,14 +19,14 @@ const StaggeredGridAnimation: React.FC<StaggeredGridAnimationProps> = ({
 		if (boxes && boxes.length > 0) {
 			anime
 				.timeline({
-					easing: "easeOutExpo",
+					easing: "easeOutSine",
 					duration: 15000,
 				})
 				.add({
 					targets: boxes,
 					translateY: [-100, 0],
 					opacity: [0, 1],
-					delay: anime.stagger(500, { grid: [rows, columns], from: "center" }), // Grid staggering effect
+					delay: anime.stagger(200, { grid: [rows, columns], from: "center" }), // Grid staggering effect
 				});
 		}
 	}, [rows, columns]);
