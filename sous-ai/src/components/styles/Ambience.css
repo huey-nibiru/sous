@@ -8,6 +8,7 @@
 	margin: 10px;
 	display: inline-block;
 	border-radius: 50px;
+	z-index: 3;
 }
 
 /* Style for the grid container */

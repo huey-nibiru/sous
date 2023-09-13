@@ -10,7 +10,7 @@ export default function () {
 					alt="Food Platter"
 				/>
 			</div>
-			;
+			
 		</>
 	);
 }

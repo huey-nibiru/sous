@@ -19,6 +19,7 @@
 	align-items: center;
 	padding: 40px; /* Adjust padding to control text spacing */
 	overflow: hidden; /* Hide overflow text */
+	z-index: 0;
 }
 
 .circle-image {
