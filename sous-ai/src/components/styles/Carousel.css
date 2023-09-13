@@ -5,7 +5,9 @@
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	height: 400px; /* Adjust the height as needed */
+	height: 50vh; /* Adjust the height as needed */
+
+
 }
 
 .carousel-circle {
@@ -22,8 +24,7 @@
 .circle-container {
 	padding: 20px;
 	text-align: center;
-	background-color: #ffffff; /* Background color for each circle */
-	border-radius: 10px;
+	background-color: #ffffff00; /* Background color for each circle */
 }
 
 .circle-container:not(:last-child) {
