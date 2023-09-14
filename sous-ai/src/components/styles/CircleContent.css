@@ -22,8 +22,8 @@
 }
 
 .circle-image {
-	max-width: 100%;
-	max-height: 100%;
+	width: 50%;
+	height: auto;
 }
 
 .circle-heading {

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
-import CircleComponent from "./CircleContent"; // Import your CircleComponent and its props interface
+import CircleComponent, { CircleComponentProps } from "./CircleContent"; // Import your CircleComponent and its props interface
 import "./styles/Carousel.css"; // You can style the carousel component with CSS
 import touchscreen from "../assets/touchscreen.png";
 import dinner_table from "../assets/dinner_table.png";
 import basket from "../assets/basket.png";
 import planner from "../assets/planner.png";
-import cooking from "../assets/touchscreen.png";
+import cooking from "../assets/cooking.png";
 
 interface CarouselProps {
-	circleData: [];
+	circleData: CircleComponentProps[];
 	interval: number; // Interval in milliseconds for transitioning between circles
 }
 const circleData = [
@@ -21,24 +21,28 @@ const circleData = [
 	},
 	{
 		imageUrl: dinner_table,
+		img_alt: "dinner table",
 		heading: "2. Explore Your Meal Options",
 		paragraph:
 			"Once your profile is set, choose from a world of culinary possibilities. Browse through your personalized meal options for breakfast, lunch, dinner, and snacks.",
 	},
 	{
 		imageUrl: planner,
+		img_alt: "planner",
 		heading: "3. Plan",
 		paragraph:
 			"When you're ready to hit the grocery store, our app generates a shopping list tailored to your meal plan. No more guesswork – shop with confidence!",
 	},
 	{
 		imageUrl: cooking,
+		img_alt: "cooking",
 		heading: "4. Cook & Enjoy",
 		paragraph:
 			"Enjoy the flavors of your custom-made dishes. Nourish your body while indulging in meals that align with your dietary needs.",
 	},
 	{
 		imageUrl: basket,
+		img_alt: "basket",
 		heading: "5. Make Smart Shopping Lists",
 		paragraph:
 			"When you're ready to hit the grocery store, our app generates a shopping list tailored to your meal plan. No more guesswork – shop with confidence!",
