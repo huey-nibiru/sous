@@ -2,8 +2,6 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import ContentRow from "../components/RowContent";
 import Carousel from "../components/Carousel";
-import StaggeredGridAnimation from "../components/Ambience";
-
 import Footer from "../components/Footer";
 
 const circleData = [
@@ -44,11 +42,12 @@ export default function () {
 	return (
 		<>
 			<Header />
+
 			<Banner />
 			<ContentRow />
-			<StaggeredGridAnimation rows={20} columns={10} />
-			<br />
+
 			<Carousel circleData={circleData} interval={5000} />
+
 			<Footer />
 		</>
 	);
