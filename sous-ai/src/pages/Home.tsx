@@ -8,13 +8,9 @@ export default function () {
 	return (
 		<>
 			<Header />
-
 			<Banner />
 			<ContentRow />
-
 			<Carousel circleData={circleData} interval={1000} />
-
-			<Footer />
 		</>
 	);
 }

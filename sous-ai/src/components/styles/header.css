@@ -5,7 +5,7 @@
 	right: 0;
 	background-color: #f0eeee;
 	color: #000000;
-	padding-bottom: 2%;
+	padding: 1%;
 	text-align: center;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 	z-index: 2; /* Ensures the header appears above other content */
@@ -16,4 +16,6 @@
 .h1 {
 	margin: 0;
 	font-family: "Raleway", sans-serif;
+	font-size: 40pt;
+	top: 10px;
 }

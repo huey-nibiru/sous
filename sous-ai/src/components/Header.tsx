@@ -11,7 +11,7 @@ export default function () {
 				{<LoginButton />}
 				{<SignUpButton />}
 			</div>
-			;
+			
 		</>
 	);
 }

@@ -4,13 +4,7 @@ import React from "react";
 import "./styles/Footer.css";
 
 const Footer: React.FC = () => {
-	return (
-		<>
-			<div id="footer">
-				This is a footer. This stays at the bottom of the page.
-			</div>
-		</>
-	);
+	return <footer>Sous</footer>;
 };
 
 export default Footer;
