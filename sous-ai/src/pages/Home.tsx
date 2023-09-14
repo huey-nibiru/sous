@@ -12,7 +12,7 @@ export default function () {
 			<Banner />
 			<ContentRow />
 
-			<Carousel circleData={circleData} interval={5000} />
+			<Carousel circleData={circleData} interval={1000} />
 
 			<Footer />
 		</>

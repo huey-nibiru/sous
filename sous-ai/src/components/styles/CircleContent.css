@@ -5,6 +5,7 @@
 	align-items: center;
 	text-align: center;
 	width: 100px; /* Adjust the width as needed */
+
 }
 
 .red-circle {
@@ -16,7 +17,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 40px; /* Adjust padding to control text spacing */
+	padding: 50%; /* Adjust padding to control text spacing */
 	overflow: hidden; /* Hide overflow text */
 	z-index: 0;
 }
@@ -24,19 +25,22 @@
 .circle-image {
 	width: 50%;
 	height: auto;
+	
 }
 
 .circle-heading {
 	margin-top: 10px;
 	font-weight: bold;
 	color: white;
+	
 }
 
 .circle-paragraph {
-	margin-top: 10px;
-	max-width: 100%; /* Ensure text does not exceed circle width */
-	overflow: hidden; /* Hide overflow text */
+	margin-top: 1px;
+	max-width: 80%; /* Ensure text does not exceed circle width */
+	overflow:visible; /* Hide overflow text */
 	font-size: 14px; /* Adjust font size as needed */
 	line-height: 1.2; /* Adjust line height as needed */
 	color: white;
+	
 }

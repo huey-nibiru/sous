@@ -8,6 +8,7 @@
 	width: 100%;
 	height: auto;
 	max-height: 30vh;
+	
 }
 
 .banner-image {
@@ -16,4 +17,5 @@
 	object-fit: contain; /* Maintain aspect ratio and cover the entire width */
 	border-top: 1px solid #ccc; /* Add a border at the top of the banner container */
 	border-bottom: 1px solid #ccc; /* Add a border at the bottom of the banner container */
+
 }
