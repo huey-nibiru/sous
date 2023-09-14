@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import ContentRow from "../components/RowContent";
 import { Carousel, circleData } from "../components/Carousel";
-import Footer from "../components/Footer";
+import "./styles/Footer.css";
 
 export default function () {
 	return (
@@ -11,6 +11,9 @@ export default function () {
 			<Banner />
 			<ContentRow />
 			<Carousel circleData={circleData} interval={1000} />
+			<div className="footer-pad">
+				<footer className="footer">Sous</footer>
+			</div>
 		</>
 	);
 }
