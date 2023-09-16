@@ -2,7 +2,6 @@
 <h1 align="center">SOUS</h1>
 <h3 align="center">AI Meal Planner</h3>
 <p align="center">
-  
   ![sous](https://github.com/huey-nibiru/sous/assets/26775577/2ec38231-dc45-4d97-a6a9-f5be8615c9dd)
 </p>
 
