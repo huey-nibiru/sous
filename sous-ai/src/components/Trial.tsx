@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/Trial.css";
+import salmon from "../assets/salmon.png";
 
 interface RedBoxWithImageProps {
 	imageUrl: string;
@@ -18,7 +19,7 @@ const RedBoxWithImage: React.FC<RedBoxWithImageProps> = ({
 		<div className="red-box">
 			{" "}
 			{/* Use the CSS class for styling */}
-			<img src={imageUrl} alt="Image" />
+			<img src={salmon} alt="Image" />
 			<button onClick={redirectToLink}>Create Your First Meal!</button>
 		</div>
 	);
