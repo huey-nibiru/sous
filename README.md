@@ -16,7 +16,7 @@
 
 
 
-Welcome to the AI Meal Planner, your personalized solution for creating delicious and nutritious meals tailored to your dietary restrictions and personal preferences. Whether you're a health-conscious individual, a fitness enthusiast, or someone with specific dietary needs, this AI-powered tool is here to simplify meal planning for you.
+Welcome to Sous, the AI Meal Planner. Your personalized solution for creating delicious and nutritious meals tailored to your dietary restrictions and personal preferences. Whether you're a health-conscious individual, a fitness enthusiast, or someone with specific dietary needs, this AI-powered tool is here to simplify meal planning for you.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -52,7 +52,7 @@ Meal planning can be a challenging task, especially when you have specific dieta
 - **Detailed Nutrition Facts:** Get a breakdown of the nutritional content of each recipe and meal.
 - **Allergen Alerts:** Be alerted to potential allergens in recipes.
 
-## Getting Started
+## Getting Started (COMING SOON)
 
 To get started with the AI Meal Planner, follow these steps:
 
