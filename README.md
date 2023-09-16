@@ -2,7 +2,7 @@
 <h1 align="center">SOUS</h1>
 <h3 align="center">AI Meal Planner</h3>
 <p align="center">
-  <img src="[https://example.com/your-gif.gif](https://github.com/huey-nibiru/sous/assets/26775577/e3947471-94db-4625-a5fb-0ec16ed1df80)" alt="Centered GIF" />
+  <img src="https://imgur.com/a/dZQy5nG" alt="Centered GIF" />
 </p>
 
 
