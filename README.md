@@ -1,6 +1,6 @@
-# SOUS AI Meal Planner
+
 <h1 align="center">SOUS</h1>
-<h3 align="center">AI Meal Planner</h3>
+<h6 align="center">AI Meal Planner</h6>
 
   ![sous](https://github.com/huey-nibiru/sous/assets/26775577/b642bb2a-40c6-4483-81c1-5bc9a655120f)
 
