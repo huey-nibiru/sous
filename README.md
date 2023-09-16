@@ -1,6 +1,7 @@
 # SOUS AI Meal Planner
 
-![Meal Planner Logo](insert-your-logo-url-here)
+![Meal Planner Demo](https://imgur.com/7Heoi06)
+
 
 Welcome to the AI Meal Planner, your personalized solution for creating delicious and nutritious meals tailored to your dietary restrictions and personal preferences. Whether you're a health-conscious individual, a fitness enthusiast, or someone with specific dietary needs, this AI-powered tool is here to simplify meal planning for you.
 
