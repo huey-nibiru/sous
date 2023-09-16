@@ -1,6 +1,8 @@
 # SOUS AI Meal Planner
+![sous](https://github.com/huey-nibiru/sous/assets/26775577/2ec38231-dc45-4d97-a6a9-f5be8615c9dd)
 
-![Meal Planner Homepage](https://imgur.com/a/G7iJSiT)
+
+
 
 
 Welcome to the AI Meal Planner, your personalized solution for creating delicious and nutritious meals tailored to your dietary restrictions and personal preferences. Whether you're a health-conscious individual, a fitness enthusiast, or someone with specific dietary needs, this AI-powered tool is here to simplify meal planning for you.
