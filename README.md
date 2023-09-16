@@ -1,5 +1,10 @@
 # SOUS AI Meal Planner
 ![sous](https://github.com/huey-nibiru/sous/assets/26775577/2ec38231-dc45-4d97-a6a9-f5be8615c9dd)
+<p align="center">
+  <img src="https://example.com/your-gif.gif" alt="Centered GIF" />
+</p>
+
+<h1 align="center">Centered Text</h1>
 
 
 
