@@ -1,18 +1,24 @@
 .white-half-container {
 	display: flex;
-	flex-direction: column;
+    margin:auto;
+	flex-direction:column;
 	align-items: center;
 	justify-content: center;
+	border-radius: 50px;
 	height: 60vh;
-	background-color: rgb(221, 8, 8);
+	background-color: rgba(221, 8, 8, 0);
+	width: 800px;
+    padding: 20px;
 }
+
+
 
 .form-container {
 	text-align: center;
-	padding: 20px;
 	border: 1px solid #ccc;
 	border-radius: 8px;
 	background-color: #f9f9f9;
+	width: 300px;
 }
 
 .input-group {
@@ -31,25 +37,17 @@ h2 {
 
 input {
 	padding: 10px;
-	width: 100%;
+	width: 80%;
+    border-radius: 10px;
 }
 
-.login-button {
-	margin: 20px 0;
-	padding: 10px 20px;
-	background-color: red;
-	color: white;
-	border: none;
-	border-radius: 8px;
-	cursor: pointer;
-	font-size: 16px;
-}
+
 
 .forgot-password {
 	margin: 10px;
 }
 
-.sign-up-button {
+.log-in-button {
 	margin: 20px 0;
 	padding: 10px 20px;
 	background-color: #007bff;
