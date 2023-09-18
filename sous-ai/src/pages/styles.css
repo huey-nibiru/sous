@@ -27,7 +27,7 @@
 	left: 0;
 	width: 50%; /* Adjust this value to control the split point */
 	height: 100%;
-	background-color: grey; /* Color for the left side */
+	background-color: #f0f0f0; /* Color for the left side */
 	z-index: -1; /* Place it behind the content */
 }
 

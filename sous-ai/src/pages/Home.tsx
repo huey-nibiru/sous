@@ -13,7 +13,7 @@ export default function () {
 			<ContentRow />
 			<RedBoxWithImage
 				imageUrl="your-image-url.jpg"
-				linkUrl="https://example.com"
+				linkUrl="https://typeform.com"
 			/>
 
 			<Carousel circleData={circleData} interval={1000} />
