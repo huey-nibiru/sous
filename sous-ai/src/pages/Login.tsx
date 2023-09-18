@@ -4,7 +4,7 @@ import "./styles.css";
 export default function () {
 	return (
 		<>
-			<body>
+			<body className="login-body">
 				<div className="main-content"></div>
 				<LoginComponent />
 			</body>
