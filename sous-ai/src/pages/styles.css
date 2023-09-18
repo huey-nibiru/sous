@@ -40,3 +40,20 @@
 	height: 100%;
 	float: right; /* Align to the right */
 }
+
+/* Create a container div to center the image */
+.centered-container {
+	display: flex;
+	justify-content: flex-start; /* Horizontally align to the left */
+	align-items: center; /* Vertically center */
+	height: 100%; /* Make the container full height of the viewport */
+	background-color: #ffefef00; /* Optionally, add a background color */
+	margin-left: 100px;
+}
+
+/* Style the image as needed */
+.centered-container img {
+	max-width: 100%; /* Ensure the image doesn't exceed the container width */
+	max-height: 100%; /* Ensure the image doesn't exceed the container height */
+	/* Add any additional styling you want for the image */
+}
