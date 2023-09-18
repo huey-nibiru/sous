@@ -1,13 +1,14 @@
 import Header from "../components/Header";
-import "./styles/Footer.css";
+import "./styles.css";
 
 export default function () {
 	return (
 		<>
 			<Header />
 
-
-
+			<body>
+				<div className="main-content"></div>
+			</body>
 
 			<div className="footer-pad">
 				<footer className="footer">Sous</footer>
