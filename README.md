@@ -21,11 +21,12 @@ Welcome to Sous, the AI Meal Planner. Your personalized solution for creating me
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+<!--
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#license) -->
 
 ## Introduction
 
