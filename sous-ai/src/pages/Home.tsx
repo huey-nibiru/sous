@@ -3,7 +3,7 @@ import Banner from "../components/Banner";
 import ContentRow from "../components/RowContent";
 import { Carousel, circleData } from "../components/Carousel";
 import RedBoxWithImage from "../components/Trial";
-import "./styles/Footer.css";
+import "./styles.css";
 
 export default function () {
 	return (
