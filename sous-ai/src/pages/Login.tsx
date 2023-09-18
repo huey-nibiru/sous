@@ -4,7 +4,7 @@ import "./styles.css";
 export default function () {
 	return (
 		<>
-			<Header />
+
 
 			<body>
 				<div className="main-content"></div>
