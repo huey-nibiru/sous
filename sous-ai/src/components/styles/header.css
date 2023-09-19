@@ -10,12 +10,10 @@
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 	z-index: 2; /* Ensures the header appears above other content */
 	width: 100%;
-
 }
 
 .h1 {
 	margin: 0;
-	font-family: "Raleway", sans-serif;
 	font-size: 40pt;
 	top: 10px;
 }
