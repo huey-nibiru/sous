@@ -5,7 +5,7 @@ const SignupComponent: React.FC = () => {
 		<div className="white-half-container">
 			<h1>Sign Up</h1>
 			<form className="form-container">
-			<div className="input-group">
+				<div className="input-group">
 					<h2>Name</h2>
 					<input type="text" />
 				</div>
