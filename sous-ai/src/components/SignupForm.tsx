@@ -6,15 +6,23 @@ const SignupComponent: React.FC = () => {
 			<h1>Sign Up</h1>
 			<form className="form-container">
 				<div className="input-group">
-					<h2>Name</h2>
+					<h2>First Name</h2>
 					<input type="text" />
 				</div>
 				<div className="input-group">
-					<h2>Email</h2>
+					<h2>Last Name</h2>
 					<input type="text" />
 				</div>
 				<div className="input-group">
-					<h2>Password</h2>
+					<h2>Enter Your Email</h2>
+					<input type="text" />
+				</div>
+				<div className="input-group">
+					<h2>Mobile Number</h2>
+					<input type="text" />
+				</div>
+				<div className="input-group">
+					<h2>Create a Password</h2>
 					<input type="password" />
 				</div>
 				<button className="log-in-button">Login</button>
