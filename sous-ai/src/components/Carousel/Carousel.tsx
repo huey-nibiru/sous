@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
-import CircleComponent, { CircleComponentProps } from "./CircleContent"; // Import your CircleComponent and its props interface
-import "./styles/Carousel.css"; // You can style the carousel component with CSS
-import touchscreen from "../assets/touchscreen.png";
-import dinner_table from "../assets/dinner_table.png";
-import basket from "../assets/basket.png";
-import planner from "../assets/planner.png";
-import cooking from "../assets/cooking.png";
+import CircleComponent, {
+	CircleComponentProps,
+} from "../CircleContent/CircleContent"; // Import your CircleComponent and its props interface
+
+import "./Carousel.css"; // You can style the carousel component with CSS
+import touchscreen from "../../assets/touchscreen.png";
+import dinner_table from "../../assets/dinner_table.png";
+import basket from "../../assets/basket.png";
+import planner from "../../assets/planner.png";
+import cooking from "../../assets/cooking.png";
 
 interface CarouselProps {
 	circleData: CircleComponentProps[];

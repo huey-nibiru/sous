@@ -1,8 +1,8 @@
-import Header from "../components/Header";
-import Banner from "../components/Banner";
-import ContentRow from "../components/RowContent";
-import { Carousel, circleData } from "../components/Carousel";
-import RedBoxWithImage from "../components/Trial";
+import Header from "../components/Header/Header";
+import Banner from "../components/Banner/Banner";
+import ContentRow from "../components/Rows/RowContent";
+import { Carousel, circleData } from "../components/Carousel/Carousel";
+import RedBoxWithImage from "../components/Trial/Trial";
 import "./styles.css";
 
 export default function () {

@@ -1,4 +1,4 @@
-import LoginComponent from "../components/LoginForm";
+import LoginComponent from "../components/Login/LoginForm";
 import "./styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

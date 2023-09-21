@@ -1,4 +1,4 @@
-import "./styles/RowContent.css";
+import "./RowContent.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faBowlFood,

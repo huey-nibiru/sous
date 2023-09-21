@@ -1,7 +1,7 @@
-import "./styles/Header.css";
-import "./styles/Banner.css";
-import LoginButton from "./LoginButton";
-import SignUpButton from "./SignUpButton";
+import "./Header.css";
+//import "./Banner.css";
+import LoginButton from "../Login/LoginButton";
+import SignUpButton from "../SignUp/SignUpButton";
 
 export default function () {
 	return (
@@ -11,7 +11,6 @@ export default function () {
 				{<LoginButton />}
 				{<SignUpButton />}
 			</div>
-			
 		</>
 	);
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/CircleContent.css"; // You can style the circle component with CSS
+import "./CircleContent.css"; // You can style the circle component with CSS
 
 interface CircleComponentProps {
 	imageUrl: string;

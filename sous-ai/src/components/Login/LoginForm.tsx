@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/LoginForm.css";
+import "./LoginForm.css";
 const LoginComponent: React.FC = () => {
 	return (
 		<div className="white-half-container">

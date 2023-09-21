@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles/Trial.css";
-import salmon from "../assets/salmon.png";
+import "./Trial.css";
+import salmon from "../../assets/salmon.png";
 
 interface RedBoxWithImageProps {
 	imageUrl: string;
