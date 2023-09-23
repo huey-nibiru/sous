@@ -1,5 +1,6 @@
 import React from "react";
 import "../Login/LoginForm.css";
+
 const SignupComponent: React.FC = () => {
 	return (
 		<div className="white-half-container">
