@@ -2,7 +2,7 @@ import Header from "../components/Header/Header";
 import Banner from "../components/Banner/Banner";
 import ContentRow from "../components/Rows/RowContent";
 import { Carousel, circleData } from "../components/Carousel/Carousel";
-import RedBoxWithImage from "../components/Trial/Trial";
+import RedBoxWithImage from "../components/Trial/Trialbox";
 import "./styles.css";
 
 export default function () {
