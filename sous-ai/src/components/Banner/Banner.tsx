@@ -1,5 +1,8 @@
 import "./Banner.css";
 
+{
+	/* This contains the home screen image of the assortment of foods contained in the header*/
+}
 export default function () {
 	return (
 		<>
@@ -10,7 +13,6 @@ export default function () {
 					alt="Food Platter"
 				/>
 			</div>
-			
 		</>
 	);
 }
