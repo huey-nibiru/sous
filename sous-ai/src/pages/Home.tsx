@@ -15,7 +15,6 @@ export default function () {
 				imageUrl="your-image-url.jpg"
 				linkUrl="https://gmqvs9gszcn.typeform.com/to/CHF4CHNz"
 			/>
-
 			<Carousel circleData={circleData} interval={1000} />
 			<div className="footer-pad">
 				<footer className="footer">Sous</footer>

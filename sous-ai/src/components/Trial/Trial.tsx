@@ -12,7 +12,7 @@ const RedBoxWithImage: React.FC<RedBoxWithImageProps> = ({
 	linkUrl,
 }) => {
 	const redirectToLink = () => {
-		window.location.href = linkUrl;
+		window.open(linkUrl, "_blank"); // Open the link in a new tab
 	};
 
 	return (
