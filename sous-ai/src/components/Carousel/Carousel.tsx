@@ -10,10 +10,13 @@ import basket from "../../assets/basket.png";
 import planner from "../../assets/planner.png";
 import cooking from "../../assets/cooking.png";
 
+// Define the interface for the Carousel component's props
 interface CarouselProps {
-	circleData: CircleComponentProps[];
+	circleData: CircleComponentProps[]; // An array of circle data to display in the carousel
 	interval: number; // Interval in milliseconds for transitioning between circles
 }
+
+// Define an array of circle data to be displayed in the carousel
 const circleData = [
 	{
 		imageUrl: touchscreen,
@@ -52,14 +55,19 @@ const circleData = [
 	},
 	// Add more circle data as needed
 ];
+
+// Define the Carousel component as a functional React component
 const Carousel: React.FC<CarouselProps> = ({ circleData, interval }) => {
+	// State to keep track of the currently displayed circle
 	const [currentIdx, setCurrentIdx] = useState(0);
 
+	// Use an effect to handle automatic transitioning between circles
 	useEffect(() => {
 		const intervalId = setInterval(() => {
 			setCurrentIdx((prevIdx) => (prevIdx + 1) % circleData.length);
 		}, interval);
 
+		// Cleanup the interval when the component unmounts
 		return () => {
 			clearInterval(intervalId);
 		};
@@ -67,11 +75,13 @@ const Carousel: React.FC<CarouselProps> = ({ circleData, interval }) => {
 
 	return (
 		<div className="carousel-container">
+			{/* Map through the circle data and render each circle in the carousel */}
 			{circleData.map((circle, idx) => (
 				<div
 					key={idx}
 					className={`carousel-circle ${idx === currentIdx ? "active" : ""}`}
 				>
+					{/* Render the CircleComponent with the data from the circleData array */}
 					<CircleComponent
 						imageUrl={circle.imageUrl}
 						img_alt={circle.img_alt}
@@ -84,4 +94,5 @@ const Carousel: React.FC<CarouselProps> = ({ circleData, interval }) => {
 	);
 };
 
+// Export the Carousel component and the circleData array for use in other parts of your application
 export { Carousel, circleData };
