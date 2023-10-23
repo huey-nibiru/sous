@@ -17,7 +17,6 @@ const RedBoxWithImage: React.FC<RedBoxWithImageProps> = ({
 
 	return (
 		<div className="red-box">
-			{" "}
 			{/* Use the CSS class for styling */}
 			<img src={salmon} alt="Image" />
 			<button onClick={redirectToLink}>Create Your First Meal!</button>
