@@ -1,5 +1,8 @@
 import React from "react";
 import "./LoginForm.css";
+
+// LoginComponent is a functional React component for the login form
+
 const LoginComponent: React.FC = () => {
 	return (
 		<div className="white-half-container">
