@@ -1,13 +1,15 @@
 import React from "react";
-import "./CircleContent.css"; // You can style the circle component with CSS
+import "./CircleContent.css"; // Import the CSS file for styling
 
+// Define the props for the CircleComponent
 interface CircleComponentProps {
-	imageUrl: string;
-	img_alt: string;
-	heading: string;
-	paragraph: string;
+	imageUrl: string; // URL of the image to display in the circle
+	img_alt: string; // Alt text for the image
+	heading: string; // The heading text for the circle
+	paragraph: string; // The paragraph text for the circle
 }
 
+// CircleComponent is a functional React component that displays content within a circle
 const CircleComponent: React.FC<CircleComponentProps> = ({
 	imageUrl,
 	img_alt,
@@ -17,12 +19,15 @@ const CircleComponent: React.FC<CircleComponentProps> = ({
 	return (
 		<div className="circle-container">
 			<div className="red-circle">
-				<img src={imageUrl} alt={img_alt} className="circle-image" />
-				<h2 className="circle-heading">{heading}</h2>
-				<p className="circle-paragraph">{paragraph}</p>
+				<img src={imageUrl} alt={img_alt} className="circle-image" />{" "}
+				{/* Display the image with alt text */}
+				<h2 className="circle-heading">{heading}</h2>{" "}
+				{/* Display the heading */}
+				<p className="circle-paragraph">{paragraph}</p>{" "}
+				{/* Display the paragraph */}
 			</div>
 		</div>
 	);
 };
 
-export default CircleComponent;
+export default CircleComponent; // Export the CircleComponent for use in other components
