@@ -4,7 +4,9 @@ import {
 	faBowlFood,
 	faUtensils,
 	faPeopleGroup,
-} from "@fortawesome/free-solid-svg-icons"; // Replace with your desired icons
+} from "@fortawesome/free-solid-svg-icons"; // Import the FontAwesome icons (Replace with your desired icons)
+
+// iconData is an array of objects containing icon and text data
 
 const iconData = [
 	{
@@ -21,6 +23,7 @@ const iconData = [
 	},
 ];
 
+// IconRow is a React component that displays a row of icons and their descriptions
 const IconRow = () => {
 	return (
 		<>
