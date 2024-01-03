@@ -1,5 +1,4 @@
 import "./Header.css";
-//import "./Banner.css";
 import LoginButton from "../Login/LoginButton";
 import SignUpButton from "../SignUp/SignUpButton";
 
