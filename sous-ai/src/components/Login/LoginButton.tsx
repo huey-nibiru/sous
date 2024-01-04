@@ -1,5 +1,5 @@
-import { useNavigate } from "react-router-dom"; // Assuming you're using React Router for navigation
-import "./LoginButton.css"; // You can create a CSS file for styling
+import { useNavigate } from "react-router-dom";
+import "./LoginButton.css";
 
 function LoginButton() {
 	const navigate = useNavigate();
@@ -15,5 +15,5 @@ function LoginButton() {
 		</button>
 	);
 }
- 
+
 export default LoginButton;
