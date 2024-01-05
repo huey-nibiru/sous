@@ -5,8 +5,7 @@ function LoginButton() {
 	const navigate = useNavigate();
 
 	const handleLoginClick = () => {
-		// You can navigate to the login screen or any other desired location
-		navigate("/login"); // Replace '/login' with your actual login route
+		navigate("/login");
 	};
 
 	return (
