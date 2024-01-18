@@ -8,9 +8,8 @@
 	position: fixed;
 	top: 20px; /* Adjust the top position as needed */
 	right: 20px; /* Adjust the right position as needed */
-	z-index: 999; /* Ensure the button appears above other content */
+	z-index: 999;
 	margin: 0;
-
 }
 
 .login-button:hover {
