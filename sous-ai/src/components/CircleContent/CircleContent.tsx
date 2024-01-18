@@ -3,10 +3,10 @@ import "./CircleContent.css"; // Import the CSS file for styling
 
 // Define the props for the CircleComponent
 interface CircleComponentProps {
-	imageUrl: string; // URL of the image to display in the circle
-	img_alt: string; // Alt text for the image
-	heading: string; // The heading text for the circle
-	paragraph: string; // The paragraph text for the circle
+	imageUrl: string;
+	img_alt: string;
+	heading: string;
+	paragraph: string;
 }
 
 // CircleComponent is a functional React component that displays content within a circle
