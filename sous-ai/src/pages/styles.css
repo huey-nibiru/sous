@@ -25,7 +25,7 @@
 	left: 0;
 	width: 50%;
 	height: 100%;
-	background-color: #f0f0f0; /* Color for the left side */
+	background-color: #f0f0f0;
 	z-index: -1;
 }
 
