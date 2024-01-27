@@ -6,6 +6,7 @@ import "./Banner.css";
 export default function () {
 	return (
 		<>
+			{/* Banner image*/}
 			<div className="banner-container">
 				<img
 					className="banner-image"
