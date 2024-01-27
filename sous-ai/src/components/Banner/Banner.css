@@ -8,14 +8,12 @@
 	width: 100%;
 	height: auto;
 	max-height: 20vh;
-	
 }
 
 .banner-image {
 	width: 100%;
-	max-height: auto; /* Adjust the maximum height as needed for your banner */
-	object-fit: contain; /* Maintain aspect ratio and cover the entire width */
-	border-top: 1px solid #ccc; /* Add a border at the top of the banner container */
-	border-bottom: 1px solid #ccc; /* Add a border at the bottom of the banner container */
-
+	max-height: auto;
+	object-fit: contain;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
