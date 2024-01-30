@@ -17,6 +17,7 @@ interface CarouselProps {
 }
 
 // Define an array of circle data to be displayed in the carousel
+
 const circleData = [
 	{
 		imageUrl: touchscreen,

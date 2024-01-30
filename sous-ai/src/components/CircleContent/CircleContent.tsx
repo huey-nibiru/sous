@@ -17,6 +17,7 @@ const CircleComponent: React.FC<CircleComponentProps> = ({
 	paragraph,
 }) => {
 	return (
+		// Contains the contents of each circle in the carousel
 		<div className="circle-container">
 			<div className="red-circle">
 				<img src={imageUrl} alt={img_alt} className="circle-image" />{" "}
