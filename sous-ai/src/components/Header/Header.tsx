@@ -2,6 +2,7 @@ import "./Header.css";
 import LoginButton from "../Login/LoginButton";
 import SignUpButton from "../SignUp/SignUpButton";
 
+// Contains the header components of login and signup buttons
 export default function () {
 	return (
 		<>
